@@ -25,11 +25,11 @@ dotnet run --configuration Debug
 
 3) Jalankan Voice Inference GUI
 ```powershell
-cd path\to\Endless-Runner-master\Voice
 cd Endless-Runner-master\Voice
 ..\..\. venv\Scripts\python.exe inference_gui.py
 or example
-& "C:\Users\Dricky\Downloads\Compressed\Summary v.01\.venv\Scripts\python.exe" inference_gui_transformer.py
+& C:\Users\Dricky\Downloads\Compressed\projectskripsi\.venv\Scripts\python.exe" inference_lstm.py
+
 ```
 - Model checkpoint: `checkpoints\transformer\best_model.pth` (MFCC Transformer, 40 koefisien).
 - Pastikan konfigurasi host/port GUI mengarah ke `127.0.0.1:5005`.
