@@ -31,7 +31,6 @@ NUM_CLASSES = 4
 LABELS = ['down', 'left', 'right', 'up']
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-# BiLSTM Pink 40 - pure LSTM model
 MODEL_PATH = os.path.join(BASE_DIR, r'../../projectskripsi/checkpoints/lstm/bestmodel.pth')
 
 # === Configuration LSTM ===
